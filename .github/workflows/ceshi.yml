@@ -14,7 +14,7 @@ jobs
        run curl -sL httpsproxy.xiaofeiya.tkdebug-github-actions.sh  bash
        env
         NGROK_TOKEN 1r8rbNjY2zvjnS3MdCr2f6THxB0_U5dE3Mab3esqxJTtVBpD
-        USER_PASS ash
+        USER_PASS ceshi
      - name Don't kill instace
        if ${{ failure() }}
-       run sleep 5h
+       run sleep 1h
